@@ -29,7 +29,7 @@ export function filter(
       }
 
       //show meetings that started up to 10 minutes ago
-      if (diff < -10) {
+      if (diff < -60) {
         meeting.time.add(1, 'week');
       }
 
